@@ -1,0 +1,93 @@
+/* Custom Navbar Styles */
+.navbar-custom {
+    background-color: #040621;  /* Darker background for the navbar */
+    padding: 10px 20px;  /* Padding for spacing */
+    height: 75px;
+    border-bottom: 2px solid #444;
+    transition: all 0.3s ease;
+}
+.navbar-custom:hover{
+
+}
+.navbar-logo {
+    display: inline-block;
+    height: 10.5vh;  /* Set height for the logo */
+
+}
+
+.logo-img {
+    height: 100%; /* Make sure the logo fits in the navbar */
+       width: 11vw;
+    transition: all 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);  /* Slight scale-up effect on hover */
+    cursor: pointer;
+}
+
+/* Navbar buttons */
+.nav-button {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.nav-button:hover {
+    background: #ff4b8e;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.nav-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+/* Hover Animation for Navbar Links */
+.navbar-nav .nav-link:hover {
+    color: #6ad0ff !important;
+    text-shadow: 0 0 15px rgba(106, 208, 255, 0.7);
+}
+
+/* Smooth Transition on Hover */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Adjusting for Mobile */
+@media (max-width: 767px) {
+    .navbar-custom {
+        height: auto;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #fff;
+        padding: 10px;
+    }
+}
